@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+body {
+    /* background-image: url("bookbg.jpg"); */
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  .form-signin {
+      /* text-align: center; */
+      border-radius: 20px;
+      width: 100%;
+      max-width: 400px;
+      padding: 15px;
+      margin: auto;
+      background-color: aliceblue;
+  }
+  form {
+      display: block;
+  }
